@@ -1,0 +1,9 @@
+package popup;
+
+import org.testng.annotations.Test;
+
+public class Popups_TestClass {
+  @Test
+  public void f() {
+  }
+}

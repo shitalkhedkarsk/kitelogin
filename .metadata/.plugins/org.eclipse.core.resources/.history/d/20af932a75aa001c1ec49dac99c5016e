@@ -1,0 +1,16 @@
+package assert_study;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class AssertNotEqual_study {
+  @Test
+  public void tc1() 
+  {
+	  String a="Pune";
+	  String b="Pune";
+	  Assert.assertNotEquals(a, b, "String value is equal");
+	  
+	  
+  }
+}

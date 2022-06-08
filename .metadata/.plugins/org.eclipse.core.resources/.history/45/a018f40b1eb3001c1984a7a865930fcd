@@ -1,0 +1,9 @@
+package mavenprject2_testPackage;
+
+import org.testng.annotations.Test;
+
+public class validateKite_TestClass_using_propertyFile {
+  @Test
+  public void f() {
+  }
+}

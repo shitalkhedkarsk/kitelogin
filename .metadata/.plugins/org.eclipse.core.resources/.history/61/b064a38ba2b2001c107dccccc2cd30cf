@@ -1,0 +1,27 @@
+package mavenprject2_PomClasses;
+
+public class Snippet {
+	public static void main(String[] args) {
+		<dependencies>
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-java</artifactId>
+		    <version>4.1.3</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi-ooxml-schemas</artifactId>
+		    <version>4.1.2</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>7.5</version>
+		    <scope>test</scope>
+		</dependency>
+		
+		</dependencies>
+	}
+}
+

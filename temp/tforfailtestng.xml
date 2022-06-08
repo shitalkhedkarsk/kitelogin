@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="https://grocery.demos.mv.cs-cart.com/f75dae0168ed8083/?_ga=2.140256886.494548502.1651557667-605167041.1651557665"/>
+    
+
+<classes>
+      <class name="temp.product.cscart.test.Tc_healthcheck"/>
+    </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

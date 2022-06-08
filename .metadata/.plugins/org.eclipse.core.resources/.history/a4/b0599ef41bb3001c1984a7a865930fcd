@@ -1,0 +1,5 @@
+package maven2_utility;
+
+public class UtilityClass_using_PropertyFie {
+
+}

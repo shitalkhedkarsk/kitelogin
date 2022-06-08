@@ -1,0 +1,9 @@
+package assert_study;
+
+import org.testng.annotations.Test;
+
+public class AssertFalse {
+  @Test
+  public void f() {
+  }
+}

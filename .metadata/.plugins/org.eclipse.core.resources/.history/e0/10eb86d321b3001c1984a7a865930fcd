@@ -1,0 +1,18 @@
+package listener_study;
+
+import org.testng.ITestListener;
+
+import org.testng.ITestResult;
+import org.testng.Reporter;
+
+public class Listener_maven2 implements ITestListener
+{
+		public void onTestStart(ITestResult result) {
+			Reporter.log("tc is start...",true);
+			ITestListener.super.onTestStart(result);
+		}
+		public void onTestSuccess(ITestResult result) {
+			Reporter.log("Congrats,tc is success...",true);
+		ITestListener.super.onTestSuccess(result);
+		}
+}

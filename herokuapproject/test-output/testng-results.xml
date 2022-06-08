@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launch browser successfully]]>
+    </line>
+    <line>
+      <![CDATA[all table row search successfully ]]>
+    </line>
+    <line>
+      <![CDATA[row size counted successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-04T08:30:10Z" name="Suite" finished-at="2022-05-04T08:30:51Z" duration-ms="41382">
+    <groups>
+    </groups>
+    <test started-at="2022-05-04T08:30:10Z" name="Test" finished-at="2022-05-04T08:30:51Z" duration-ms="41382">
+      <class name="herokuapproject_TestClass.Challenging_DOM">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:herokuapproject_TestClass.Challenging_DOM@3f67593e]" started-at="2022-05-04T14:00:10Z" name="testSetup" finished-at="2022-05-04T14:00:48Z" duration-ms="38086" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launch browser successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="handle_dom_data()[pri:0, instance:herokuapproject_TestClass.Challenging_DOM@3f67593e]" started-at="2022-05-04T14:00:48Z" name="handle_dom_data" finished-at="2022-05-04T14:00:48Z" duration-ms="761" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[all table row search successfully ]]>
+            </line>
+            <line>
+              <![CDATA[row size counted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handle_dom_data -->
+      </class> <!-- herokuapproject_TestClass.Challenging_DOM -->
+      <class name="herokuapproject_TestClass.test_Brokenimages">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:herokuapproject_TestClass.test_Brokenimages@4ddbbdf8]" started-at="2022-05-04T14:00:10Z" name="testSetup" finished-at="2022-05-04T14:00:48Z" duration-ms="38072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="selenium_broken_image_approach_1()[pri:0, instance:herokuapproject_TestClass.test_Brokenimages@4ddbbdf8]" started-at="2022-05-04T14:00:48Z" name="selenium_broken_image_approach_1" description="Approach 1: find broken imAGE ON WEBPAGE " finished-at="2022-05-04T14:00:51Z" duration-ms="2865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium_broken_image_approach_1 -->
+        <test-method signature="selenium_broken_image_approach_2()[pri:0, instance:herokuapproject_TestClass.test_Brokenimages@4ddbbdf8]" started-at="2022-05-04T14:00:51Z" name="selenium_broken_image_approach_2" description="Approach2:" finished-at="2022-05-04T14:00:51Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium_broken_image_approach_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapproject_TestClass.test_Brokenimages@4ddbbdf8]" started-at="2022-05-04T14:00:51Z" name="tearDown" finished-at="2022-05-04T14:00:51Z" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- herokuapproject_TestClass.test_Brokenimages -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

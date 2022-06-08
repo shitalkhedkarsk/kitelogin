@@ -1,0 +1,11 @@
+package CrossBrowser_TestNg;
+
+import org.testng.annotations.Test;
+
+public class CT_2 {
+  @Test
+  public void f() 
+  {
+	  
+  }
+}

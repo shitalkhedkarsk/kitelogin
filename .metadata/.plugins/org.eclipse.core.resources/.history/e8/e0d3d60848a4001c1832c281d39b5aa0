@@ -1,0 +1,40 @@
+package excel;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class Excel6 {
+
+	public static void main(String[] args) throws EncryptedDocumentException, IOException
+	{
+		FileInputStream myFile=new FileInputStream("F:\\\\Excel-Data\\\\zerodaDDF.xlsx");
+		Sheet mySheet = WorkbookFactory.create(myFile).getSheet("sheet1");
+		String data1 = mySheet.getRow(0).getCell(0).getStringCellValue();
+		String data2 = mySheet.getRow(0).getCell(1).getStringCellValue();
+		String data3 = mySheet.getRow(0).getCell(2).getStringCellValue();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}
